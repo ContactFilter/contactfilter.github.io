@@ -5,64 +5,81 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Primary Meta -->
     <title>ContactFilter — AI-Powered Spam Filtering for Forms</title>
-    <meta name="description" content="ContactFilter uses privacy-first AI to stop spam at the form level. Real-time spam detection, zero message storage, GDPR-friendly." />
+    <meta
+      name="description"
+      content="ContactFilter provides real-time AI-powered spam detection for contact forms. Privacy-first, zero message storage, GDPR-friendly spam filtering for websites and businesses."
+    />
+    <meta
+      name="keywords"
+      content="spam filter, contact form spam, AI spam block, privacy-first, GDPR, spam prevention, form protection, bot protection"
+    />
     <meta name="author" content="ContactFilter" />
-    <meta name="keywords" content="spam filtering, contact form, AI, privacy-first, GDPR, bot detection" />
     <meta name="robots" content="index, follow" />
     <meta name="format-detection" content="telephone=no" />
+
+    <!-- Canonical & Language -->
+    <link rel="canonical" href="https://contactfilter.github.io/" />
+    <link rel="alternate" hreflang="en" href="https://contactfilter.github.io/" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://contactfilter.github.io/favicon.ico" />
+    <link rel="apple-touch-icon" href="https://contactfilter.github.io/logo.png" sizes="180x180" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="https://contactfilter.github.io/site.webmanifest" />
+
     <meta name="theme-color" content="#0d6efd" />
-
-    <!-- Canonical -->
-    <link rel="canonical" href="/" />
-    <link rel="alternate" hreflang="en" href="/" />
-
-    <!-- Icons / PWA -->
-    <link rel="manifest" href="/site.webmanifest" />
-    <link rel="apple-touch-icon" href="/logo.png" sizes="180x180" />
-    <!-- leave favicon as-is in your public root; no change here per request -->
 
     <!-- Open Graph -->
     <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content="ContactFilter" />
     <meta property="og:title" content="ContactFilter — AI-Powered Spam Filtering for Forms" />
-    <meta property="og:description" content="Privacy-first, real-time AI spam filtering for contact forms. No message storage — GDPR-friendly." />
+    <meta
+      property="og:description"
+      content="Real-time AI spam detection for contact forms. No message storage. GDPR-compliant. Privacy-first spam protection."
+    />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="/" />
-    <meta property="og:image" content="/logo.png" />
-    <meta property="og:image:alt" content="ContactFilter logo" />
+    <meta property="og:url" content="https://contactfilter.github.io/" />
+    <meta property="og:image" content="https://contactfilter.github.io/og-image.png" />
+    <meta property="og:image:alt" content="ContactFilter preview image" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="ContactFilter — AI-Powered Spam Filtering for Forms" />
-    <meta name="twitter:description" content="Privacy-first, real-time AI spam filtering for contact forms. No message storage — GDPR-friendly." />
-    <meta name="twitter:image" content="/logo.png" />
+    <meta
+      name="twitter:description"
+      content="Real-time AI spam detection for contact forms. Zero message storage. GDPR-friendly."
+    />
+    <meta name="twitter:image" content="https://contactfilter.github.io/og-image.png" />
 
-    <!-- Structured data (JSON-LD) -->
+    <!-- Structured Data -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@graph": [
           {
+            "@type": "Organization",
+            "name": "ContactFilter",
+            "url": "https://contactfilter.github.io/",
+            "logo": "https://contactfilter.github.io/logo.png"
+          },
+          {
             "@type": "WebSite",
             "name": "ContactFilter",
-            "url": "/",
+            "url": "https://contactfilter.github.io/",
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "/?s={search_term_string}",
+              "target": "https://contactfilter.github.io/?q={search_term_string}",
               "query-input": "required name=search_term_string"
             }
           },
           {
-            "@type": "Organization",
-            "name": "ContactFilter",
-            "logo": "/logo.png",
-            "url": "/"
-          },
-          {
             "@type": "WebPage",
-            "name": "ContactFilter — AI-Powered Spam Filtering for Forms",
-            "description": "Privacy-first, real-time AI spam filtering for contact forms. No message storage — GDPR-friendly."
+            "name": "ContactFilter — AI-Powered Spam Filtering",
+            "url": "https://contactfilter.github.io/",
+            "description": "AI spam filtering for contact forms. GDPR-friendly, private, fast and simple spam prevention."
           }
         ]
       }
@@ -72,7 +89,45 @@
   </head>
 
   <body>
+    <!-- SEO fallback content - crawlers, no-js, and Google text extraction -->
+    <noscript>
+      <h1>ContactFilter – AI-Powered Spam Filtering for Contact Forms</h1>
+      <p>
+        ContactFilter is a privacy-first spam filtering service that uses modern AI to block bots, spam messages, and
+        abusive submissions before they ever reach your inbox. Using a unique forwarding email address or our hosted
+        form, ContactFilter analyzes messages in real time to determine whether they are legitimate or spam.
+      </p>
+
+      <h2>How ContactFilter Works</h2>
+      <p>
+        Every customer receives a unique endpoint address. Your website’s contact form sends submissions to that address
+        instead of directly to your email. ContactFilter analyzes each message using heuristic rules and AI classification
+        to determine spam probability. If the message is legitimate, it is forwarded instantly to your inbox. Spam can be
+        discarded, forwarded to an alternate email, sent to your webhook, or stored in your own Supabase database using
+        write-only access. We never store message content ourselves.
+      </p>
+
+      <h2>Why Use ContactFilter?</h2>
+      <p>
+        Traditional anti-spam tools like CAPTCHAs and honeypots are no longer effective against modern bots. ContactFilter
+        prevents spam using real-time AI without adding friction to your users. It is ideal for businesses that need
+        reliable, GDPR-friendly spam protection without compromising data privacy.
+      </p>
+
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="https://contactfilter.github.io/">Home</a></li>
+        <li><a href="https://contactfilter.github.io/how-it-works">How It Works</a></li>
+        <li><a href="https://contactfilter.github.io/about">About Us</a></li>
+        <li><a href="https://contactfilter.github.io/contact">Contact</a></li>
+      </ul>
+
+      <p>
+        To use ContactFilter, please enable JavaScript. This fallback text is provided for search engines and users with
+        scripts disabled.
+      </p>
+    </noscript>
+
     <div id="root"></div>
-    <noscript>Please enable JavaScript to use ContactFilter.</noscript>
   </body>
 </html>
